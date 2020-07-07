@@ -11,13 +11,11 @@ html, body{
     height: 100%;
 
 }
-div{
-    display: flex;
+body, *{
+    border: 2px solid;
 }
-#top{
-    position: relative;
-    top: 16px;
-    width: 100%;
+div{
+    display: block;
 }
 #upper-box{
     float: right;
@@ -32,20 +30,27 @@ div{
     margin-left: 0!important;
     margin-right: 0!important;
     white-space: nowrap;
-
+    display: flex;
 
 }
-#upper-box, a{
+a{
     display: inline;
     padding: 0px 10px;
     text-decoration: none;
+    font-size: 15px;
 }
-#upper-box, a:hover{
+a:hover{
+    opacity: .85;
     text-decoration: underline;
+}
+center{
+    width: 100%;
 }
 #form-s{
     width: 100%;
     display: flexbox;
+    position: absolute;
+    top: 311px;
 }
 #form-s, input{
     position: relative;
@@ -53,11 +58,41 @@ div{
 form{
     margin: 0 auto;
 }
-#form.container-sTsB{
-    width: 584px;
-    position: relative;
+#form-text-s{
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
     margin: 0 auto;
     padding-top: 6px;
+    width: 582px;
+    flex: 1;
+    flex-wrap: wrap;
+    position: relative;
+}
+#form-text-s:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#form-text-s, div{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.searchText{
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    flex: 100%;
+    margin-top: -37px;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    outline: none;
+    word-wrap: break-word;
+    width: 100%;
+    white-space: pre;
 }
 .btn-search {
     background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
