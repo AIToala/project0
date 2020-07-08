@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Image Search</title>
-    </head>
-    <body>
-        <div id="top-right-links"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="mini-logo">
+        <div style="display: inline-flex; float: right;">
             <a href="index.html">Back</a>
         </div>
-        <form action="https://google.com/advanced_search">
-            <input type="text" name="q">
-            <input type="submit" value="Advanced Search">
+    </div>
+    <div class="form-title">
+        <label>Advanced Search</label>
+    </div>
+    <div style="border-bottom: 1px solid #ebebeb"></div>
+    <div class="content-form">
+        <form action="https://google.com/search">
+            <div class="content-form-t">
+                <span>Find pages with...</span>
+            </div>
+            <div class="content-form-s">
+                <div class="div-s">
+                    <div class="searchOpt">
+                        <div class="text-opt">
+                            <label class="opt">all these words:</label>
+                        </div> 
+                    </div>
+                    <div class="searchTxt">
+                        <div class="textc">
+                            <input name="as_q" class="text-s" type="text">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="div-s">
+                    <div class="searchOpt">
+                        <div class="text-opt">
+                            <label class="opt">this exact word or phrase:</label>
+                        </div>
+                    </div>
+                    <div class="searchTxt">
+                        <div class="textc">
+                            <input name="as_epq" class="text-s" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="div-s">
+                    <div class="searchOpt">
+                        <div class="text-opt">
+                            <label class="opt">any of these words:</label>
+                        </div>
+                    </div>
+                    <div class="searchTxt">
+                        <div class="textc">
+                            <input name="as_oq" class="text-s" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="div-s">
+                    <div class="searchOpt">
+                        <div class="text-opt">
+                            <label class="opt">none of these words:</label>
+                        </div>
+                    </div>
+                    <div class="searchTxt">
+                        <div class="textc">
+                            <input name="as_eq" class="text-s" type="text">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="endform"></div>
+            <div class="div-s">
+                <div class="searchOpt">
+                    <div class="text-opt"></div>
+                </div>
+                <div class="searchTxt">
+                    <input class="btnAS" type="submit" value="Advanced Search">
+                </div>
+            </div>
+            
         </form>
-    </body>
+    </div>
+    
+</body>
 </html>
