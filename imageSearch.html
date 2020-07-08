@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Image Search</title>
-    </head>
-    <body>
-        <div id="top-right-links"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="upper-box">
+        <div style="display: inline-flex;">
             <a href="index.html">Back</a>
         </div>
-        <form action="https://www.google.com.ec/search?tbm=isch&sclient=img">
-            <input type="text" name="q">
-            <input type="submit" value="Image Search">
+    </div>
+    <div id="logo-box">
+        <center>
+            <div id="logo" style="background: url(googleLogo.png) no-repeat;">
+                <span>Images</span>
+            </div>
+        </center>        
+    </div>
+
+    <div id="form-s">
+        <form action="http://images.google.com/images"> 
+            <div id="form-text-s">
+                <div>
+                    <center>
+                        <input class= "searchText" type="text"  name="q">
+                    </center>
+                </div>
+            </div>
+            <div>
+                <center>
+                    <input class="btn-search" value="Google Search" aria-label="Google Search" type="submit">
+                </center>
+            </div>
         </form>
-    </body>
+    </div>
+</body>
 </html>

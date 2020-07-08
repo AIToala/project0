@@ -53,6 +53,11 @@ center{
     top: 120px;
     width: 100%;
 }
+#logo{
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+}
 #form-s{
     width: 100%;
     display: flexbox;
