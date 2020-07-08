@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Image Search</title>
-    </head>
-    <body>
-        <div id="top-right-links"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="mini-logo">
+        <div style="display: inline-flex; float: right;">
             <a href="index.html">Back</a>
         </div>
-        <form action="https://google.com/advanced_search">
-            <input type="text" name="q">
-            <input type="submit" value="Advanced Search">
+    </div>
+    <div class="form-title">
+        <label>Advanced Search</label>
+
+    </div>
+    <div id="form-s">
+        <form action="https://google.com/search">
+            <div id="form-text-s">
+                <div>
+                    <center>
+                        <input class= "searchText" type="text"  name="q">
+                    </center>
+                </div>
+            </div>
+            <div>
+                <center>
+                    <input class="btn-search" value="Google Search" aria-label="Google Search" type="submit">
+                    <input class="btn-search" value="I'm feeling lucky" type="submit" name="btnI">
+                </center>
+            </div>
         </form>
-    </body>
+    </div>
+</body>
 </html>

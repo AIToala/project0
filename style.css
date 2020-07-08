@@ -57,6 +57,24 @@ center{
     background-size: 272px 92px;
     height: 92px;
     width: 272px;
+    background: url(googleLogo.png) no-repeat;
+}
+#mini-logo{
+    position: relative;
+    padding: 0 20px 0 15px;
+    background-color: #f1f1f1;
+    height: 60px;
+    width: 100%;
+}
+#mini-logo>div{
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 0!important;
+    margin-right: 0!important;
 }
 #form-s{
     width: 100%;
@@ -133,5 +151,18 @@ form{
     color: #222;
 
 }
-
-
+.form-title{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px!important;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    position: relative;
+}
+.form-title, label{
+    margin-left: 10px;
+}
