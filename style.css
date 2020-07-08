@@ -9,11 +9,10 @@ html, body{
     background-color: aliceblue;
     margin: 0;
     height: 100%;
+    background: #fff;
+    color: #222;    
+}
 
-}
-body, *{
-    border: 2px solid;
-}
 div{
     display: block;
 }
@@ -27,10 +26,12 @@ div{
     text-align: right;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 10px;
     margin-left: 0!important;
     margin-right: 0!important;
     white-space: nowrap;
     display: flex;
+
 
 }
 a{
@@ -46,13 +47,19 @@ a:hover{
 center{
     width: 100%;
 }
+#logo-box{
+    display: flex;
+    position: relative;
+    top: 120px;
+    width: 100%;
+}
 #form-s{
     width: 100%;
     display: flexbox;
     position: absolute;
     top: 311px;
 }
-#form-s, input{
+#form-s > input{
     position: relative;
 }
 form{
@@ -74,13 +81,14 @@ form{
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
-#form-text-s, div{
+#form-text-s > div{
     flex: 1;
     display: flex;
-    padding: 5px 8px 0 16px;
+    padding: 9px 8px 0 16px;
     padding-left: 14px;
 }
 .searchText{
+    background-color: transparent;
     border: none;
     margin: 0 auto;
     padding: 0;
