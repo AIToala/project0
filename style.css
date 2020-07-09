@@ -31,8 +31,6 @@ div{
     margin-right: 0!important;
     white-space: nowrap;
     display: flex;
-
-
 }
 a{
     display: inline;
@@ -78,7 +76,6 @@ center{
 }
 #form-s{
     width: 100%;
-    display: flexbox;
     position: absolute;
     top: 311px;
 }
